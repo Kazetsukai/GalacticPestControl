@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+<<<<<<< 937017138708f02175e2617abd511f2f6eab61f2
+guid: aba6b3c68d32281418efcc2f7fff126d
+timeCreated: 1460863768
+=======
+guid: 7881970db0bda134585ead500478622a
+timeCreated: 1460859899
+>>>>>>> ROCKET LAUNCHER
+licenseType: Free
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

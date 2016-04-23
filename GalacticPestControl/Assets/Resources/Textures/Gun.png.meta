@@ -1,0 +1,705 @@
+fileFormatVersion: 2
+guid: 94cc7418a404fef4e9938baf5d91f6df
+timeCreated: 1460782163
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Gun_0
+    21300002: Gun_1
+    21300004: Gun_2
+    21300006: Gun_3
+    21300008: Gun_4
+    21300010: Gun_5
+    21300012: Gun_6
+    21300014: Gun_7
+    21300016: Gun_8
+    21300018: Gun_9
+    21300020: Gun_10
+    21300022: Gun_11
+    21300024: Gun_12
+    21300026: Gun_13
+    21300028: Gun_14
+    21300030: Gun_15
+    21300032: Gun_16
+    21300034: Gun_17
+    21300036: Gun_18
+    21300038: Gun_19
+    21300040: Gun_20
+    21300042: Gun_21
+    21300044: Gun_22
+    21300046: Gun_23
+    21300048: Gun_24
+    21300050: Gun_25
+    21300052: Gun_26
+    21300054: Gun_27
+    21300056: Gun_28
+    21300058: Gun_29
+    21300060: Gun_30
+    21300062: Gun_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Gun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -4}
+        - {x: 7, y: -4}
+        - {x: 11, y: -3}
+        - {x: 11, y: 1}
+        - {x: 10, y: 3}
+        - {x: -2, y: 3}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+    - name: Gun_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -4}
+        - {x: 7, y: -4}
+        - {x: 11, y: -3}
+        - {x: 11, y: 1}
+        - {x: 10, y: 3}
+        - {x: -2, y: 3}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+    - name: Gun_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -4}
+        - {x: 7, y: -4}
+        - {x: 11, y: -3}
+        - {x: 11, y: 1}
+        - {x: 10, y: 3}
+        - {x: -2, y: 3}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+    - name: Gun_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -4}
+        - {x: 7, y: -4}
+        - {x: 11, y: -3}
+        - {x: 11, y: 1}
+        - {x: 10, y: 3}
+        - {x: -2, y: 3}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+    - name: Gun_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 3}
+        - {x: -4, y: 3}
+        - {x: -6, y: 1}
+        - {x: -6, y: -1}
+        - {x: -5, y: -4}
+        - {x: 10, y: -4}
+        - {x: 13, y: -1}
+        - {x: 13, y: 0}
+    - name: Gun_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 3}
+        - {x: -4, y: 3}
+        - {x: -6, y: 1}
+        - {x: -6, y: -1}
+        - {x: -5, y: -4}
+        - {x: 10, y: -4}
+        - {x: 13, y: -1}
+        - {x: 13, y: 0}
+    - name: Gun_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 3}
+        - {x: -4, y: 3}
+        - {x: -6, y: 1}
+        - {x: -6, y: -1}
+        - {x: -5, y: -4}
+        - {x: 10, y: -4}
+        - {x: 13, y: -1}
+        - {x: 13, y: 0}
+    - name: Gun_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 3}
+        - {x: -4, y: 3}
+        - {x: -6, y: 1}
+        - {x: -6, y: -1}
+        - {x: -5, y: -4}
+        - {x: 10, y: -4}
+        - {x: 13, y: -1}
+        - {x: 13, y: 0}
+    - name: Gun_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 10, y: -3}
+        - {x: 10, y: 1}
+        - {x: 9, y: 3}
+        - {x: -3, y: 3}
+        - {x: -7, y: 2}
+        - {x: -7, y: -2}
+    - name: Gun_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 10, y: -3}
+        - {x: 10, y: 1}
+        - {x: 9, y: 3}
+        - {x: -3, y: 3}
+        - {x: -7, y: 2}
+        - {x: -7, y: -2}
+    - name: Gun_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 10, y: -3}
+        - {x: 10, y: 1}
+        - {x: 9, y: 3}
+        - {x: -3, y: 3}
+        - {x: -7, y: 2}
+        - {x: -7, y: -2}
+    - name: Gun_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 10, y: -3}
+        - {x: 10, y: 1}
+        - {x: 9, y: 3}
+        - {x: -3, y: 3}
+        - {x: -7, y: 2}
+        - {x: -7, y: -2}
+    - name: Gun_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 3}
+        - {x: -7, y: 0}
+        - {x: -7, y: -1}
+        - {x: -4, y: -4}
+        - {x: 10, y: -4}
+        - {x: 13, y: -3}
+        - {x: 13, y: 1}
+        - {x: 12, y: 3}
+    - name: Gun_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 3}
+        - {x: -7, y: 0}
+        - {x: -7, y: -1}
+        - {x: -4, y: -4}
+        - {x: 10, y: -4}
+        - {x: 13, y: -3}
+        - {x: 13, y: 1}
+        - {x: 12, y: 3}
+    - name: Gun_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 3}
+        - {x: -7, y: 0}
+        - {x: -7, y: -1}
+        - {x: -4, y: -4}
+        - {x: 10, y: -4}
+        - {x: 13, y: -3}
+        - {x: 13, y: 1}
+        - {x: 12, y: 3}
+    - name: Gun_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 3}
+        - {x: -7, y: 0}
+        - {x: -7, y: -1}
+        - {x: -4, y: -4}
+        - {x: 10, y: -4}
+        - {x: 13, y: -3}
+        - {x: 13, y: 1}
+        - {x: 12, y: 3}
+    - name: Gun_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 6}
+        - {x: -4, y: 4}
+        - {x: -6, y: -1}
+        - {x: -4, y: -3}
+        - {x: 9, y: -3}
+        - {x: 11, y: -1}
+        - {x: 11, y: 1}
+        - {x: 4, y: 6}
+    - name: Gun_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 6}
+        - {x: -4, y: 4}
+        - {x: -6, y: -1}
+        - {x: -4, y: -3}
+        - {x: 9, y: -3}
+        - {x: 11, y: -1}
+        - {x: 11, y: 1}
+        - {x: 4, y: 6}
+    - name: Gun_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 6}
+        - {x: -4, y: 4}
+        - {x: -6, y: -1}
+        - {x: -4, y: -3}
+        - {x: 9, y: -3}
+        - {x: 11, y: -1}
+        - {x: 11, y: 1}
+        - {x: 4, y: 6}
+    - name: Gun_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 6}
+        - {x: -4, y: 4}
+        - {x: -6, y: -1}
+        - {x: -4, y: -3}
+        - {x: 9, y: -3}
+        - {x: 11, y: -1}
+        - {x: 11, y: 1}
+        - {x: 4, y: 6}
+    - name: Gun_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 6}
+        - {x: -5, y: 4}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -2, y: -4}
+        - {x: 12, y: -4}
+        - {x: 13, y: -3}
+        - {x: 13, y: 2}
+        - {x: 8, y: 6}
+    - name: Gun_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 6}
+        - {x: -5, y: 4}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -2, y: -4}
+        - {x: 12, y: -4}
+        - {x: 13, y: -3}
+        - {x: 13, y: 2}
+        - {x: 8, y: 6}
+    - name: Gun_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 6}
+        - {x: -5, y: 4}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -2, y: -4}
+        - {x: 12, y: -4}
+        - {x: 13, y: -3}
+        - {x: 13, y: 2}
+        - {x: 8, y: 6}
+    - name: Gun_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 6}
+        - {x: -5, y: 4}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -2, y: -4}
+        - {x: 12, y: -4}
+        - {x: 13, y: -3}
+        - {x: 13, y: 2}
+        - {x: 8, y: 6}
+    - name: Gun_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -5}
+        - {x: -1, y: -6}
+        - {x: 4, y: -6}
+        - {x: 11, y: -2}
+        - {x: 11, y: 1}
+        - {x: 10, y: 3}
+        - {x: -5, y: 3}
+        - {x: -6, y: 0}
+    - name: Gun_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -5}
+        - {x: -1, y: -6}
+        - {x: 4, y: -6}
+        - {x: 11, y: -2}
+        - {x: 11, y: 1}
+        - {x: 10, y: 3}
+        - {x: -5, y: 3}
+        - {x: -6, y: 0}
+    - name: Gun_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -5}
+        - {x: -1, y: -6}
+        - {x: 4, y: -6}
+        - {x: 11, y: -2}
+        - {x: 11, y: 1}
+        - {x: 10, y: 3}
+        - {x: -5, y: 3}
+        - {x: -6, y: 0}
+    - name: Gun_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -5}
+        - {x: -1, y: -6}
+        - {x: 4, y: -6}
+        - {x: 11, y: -2}
+        - {x: 11, y: 1}
+        - {x: 10, y: 3}
+        - {x: -5, y: 3}
+        - {x: -6, y: 0}
+    - name: Gun_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 4}
+        - {x: -5, y: 4}
+        - {x: -6, y: 1}
+        - {x: -6, y: -3}
+        - {x: -3, y: -5}
+        - {x: 0, y: -6}
+        - {x: 5, y: -6}
+        - {x: 13, y: -1}
+        - {x: 13, y: 1}
+    - name: Gun_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 4}
+        - {x: -5, y: 4}
+        - {x: -6, y: 1}
+        - {x: -6, y: -3}
+        - {x: -3, y: -5}
+        - {x: 0, y: -6}
+        - {x: 5, y: -6}
+        - {x: 13, y: -1}
+        - {x: 13, y: 1}
+    - name: Gun_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 4}
+        - {x: -5, y: 4}
+        - {x: -6, y: 1}
+        - {x: -6, y: -3}
+        - {x: -3, y: -5}
+        - {x: 0, y: -6}
+        - {x: 5, y: -6}
+        - {x: 13, y: -1}
+        - {x: 13, y: 1}
+    - name: Gun_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 4}
+        - {x: -5, y: 4}
+        - {x: -6, y: 1}
+        - {x: -6, y: -3}
+        - {x: -3, y: -5}
+        - {x: 0, y: -6}
+        - {x: 5, y: -6}
+        - {x: 13, y: -1}
+        - {x: 13, y: 1}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
