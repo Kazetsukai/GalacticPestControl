@@ -180,7 +180,7 @@ Material:
       data:
         first:
           name: _SpecStrength
-        second: 0.06
+        second: 0.24
       data:
         first:
           name: _AmplifyDepth
@@ -188,7 +188,7 @@ Material:
       data:
         first:
           name: _CelShadingLevels
-        second: 150
+        second: 500
       data:
         first:
           name: _LightWrap
@@ -204,7 +204,7 @@ Material:
       data:
         first:
           name: _AttenuationMultiplier
-        second: 0.46
+        second: 0.17
       data:
         first:
           name: _SpotlightHardness
