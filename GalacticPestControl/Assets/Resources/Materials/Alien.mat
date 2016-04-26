@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: SpriteShadowTest
+  m_Name: Alien
   m_Shader: {fileID: 4800000, guid: 069032f5bd5666541afcfeb10ac30a51, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -19,7 +19,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: eb782118848692b45aa1c53d5a86a902, type: 3}
+          m_Texture: {fileID: 2800000, guid: 44038307392d89940886978beb478e6f, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -82,7 +82,7 @@ Material:
         first:
           name: _NormalDepth
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 6e46034ae5e7055428f620e4f99595e8, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -96,26 +96,12 @@ Material:
         first:
           name: _AmbientOcclusion
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: b882394cb6aae684dba1512bd0b9d9a8, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _EmissiveColour
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _PaletteMap
-        second:
-          m_Texture: {fileID: 2800000, guid: 7d506207c2704ee46af6783b340ef829, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _IndexMap
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -133,10 +119,6 @@ Material:
         first:
           name: _Cutoff
         second: 0.5
-      data:
-        first:
-          name: PixelSnap
-        second: 0
       data:
         first:
           name: _Parallax
@@ -184,11 +166,11 @@ Material:
       data:
         first:
           name: _AmplifyDepth
-        second: 1
+        second: 0
       data:
         first:
           name: _CelShadingLevels
-        second: 500
+        second: 107.24
       data:
         first:
           name: _LightWrap
