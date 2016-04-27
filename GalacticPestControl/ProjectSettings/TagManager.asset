@@ -14,9 +14,9 @@ TagManager:
   - 
   - 
   - DontRender
-  - 
-  - 
-  - 
+  - Player
+  - Floor
+  - Walls
   - 
   - 
   - 
