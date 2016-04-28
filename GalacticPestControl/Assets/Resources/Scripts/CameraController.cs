@@ -44,7 +44,7 @@ public class CameraController : MonoBehaviour
 			transform.localPosition = snapPosition;
 		}
 
-		Debug.Log(pixelMode + " - " + size + "   - " + localCamera.orthographicSize + " - " + snapSize + " - " + transform.localPosition + " - " + snapPosition);
+		//Debug.Log(pixelMode + " - " + size + "   - " + localCamera.orthographicSize + " - " + snapSize + " - " + transform.localPosition + " - " + snapPosition);
 	}
 
 	enum JankMode

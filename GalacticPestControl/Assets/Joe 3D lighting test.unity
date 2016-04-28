@@ -3603,6 +3603,49 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c277cc56249b0424ea27f8cc3bb9d483, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1352173673 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 124624, guid: c277cc56249b0424ea27f8cc3bb9d483, type: 2}
+  m_PrefabInternal: {fileID: 1352173672}
+--- !u!114 &1352173674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1352173673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd0f612d4a00274a8fbcb74927f3818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteSheet: {fileID: 2800000, guid: eb782118848692b45aa1c53d5a86a902, type: 3}
+  SpriteJSON: {fileID: 4900000, guid: 31d5157eca85d8e4cabf331fef3dbb9a, type: 3}
+  SpriteAnims: []
+  CurrentAnim:
+    name: 
+    from: 0
+    to: 0
+    direction: 
+  CurrentFrame:
+    filename: 
+    frame:
+      x: 0
+      y: 0
+      w: 0
+      h: 0
+    rotated: 0
+    framed: 0
+    spriteSourceSize:
+      x: 0
+      y: 0
+      w: 0
+      h: 0
+    sourceSize:
+      w: 0
+      h: 0
+    duration: 0
+  CurrentFrameIndex: 0
+  isPlaying: 1
 --- !u!1 &1375188452
 GameObject:
   m_ObjectHideFlags: 0
