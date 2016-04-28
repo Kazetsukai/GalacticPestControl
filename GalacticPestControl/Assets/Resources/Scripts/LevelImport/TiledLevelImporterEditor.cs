@@ -60,7 +60,7 @@ public class TiledLevelImporterEditor : Editor
             var tilesetToUse = tileset;
 
             i = tilesetToUse.firstgid;
-            
+
             var query = tilesetToUse.image.Split('\\', '/').Last().Split('.').First() + " t:sprite";
             Debug.Log(query);
             var assetPath = AssetDatabase.FindAssets(query);
@@ -76,6 +76,7 @@ public class TiledLevelImporterEditor : Editor
 
                 foreach (var sprite in sprites)
                 {
+                    // Turn sprite into texture
                     Texture2D spriteTexture = new Texture2D((int)sprite.rect.width, (int)sprite.rect.height);
                     spriteTexture.filterMode = FilterMode.Point;
 
@@ -83,6 +84,7 @@ public class TiledLevelImporterEditor : Editor
                     spriteTexture.SetPixels(pixels);
                     spriteTexture.Apply();
 
+                    // And make a material out of that
                     tileMaterials[i] = new Material(material);
                     tileMaterials[i].mainTexture = spriteTexture;
 
@@ -104,7 +106,7 @@ public class TiledLevelImporterEditor : Editor
 
         var importedLevel = new GameObject("Tiled Level");
         importedLevel.transform.parent = parent;
-        
+
         // Load the layers
         for (int layerId = obj.layers.Length - 1; layerId >= 0; layerId--)
         {
@@ -112,6 +114,14 @@ public class TiledLevelImporterEditor : Editor
 
             GameObject layerObj = new GameObject(layer.name);
             layerObj.transform.parent = importedLevel.transform;
+
+            var renderer = layerObj.AddComponent<MeshRenderer>();
+            renderer.material = material;
+
+            Mesh mesh = new Mesh();
+            var vertices = new Vector3[layer.height * layer.width * 6];
+            var uvs = new Vector2[layer.height * layer.width * 6];
+            var triangles = new List<int>();
 
             int layerHeight;
             if (!int.TryParse(layer.name, out layerHeight))
@@ -123,32 +133,53 @@ public class TiledLevelImporterEditor : Editor
             {
                 for (int x = 0; x < layer.width; x++)
                 {
+                    var index = (layer.width * y + x) * 6;
+
                     var dataIndex = layer.width * y + x;
                     var spriteIndex = layer.data[dataIndex];
 
                     if (spriteIndex == 0)
                         continue;
 
-                    GameObject tile = new GameObject("Tile");
+                    var pos = new Vector3(x, (-y - layerHeight) * Constants.SQRT_TWO, -layerHeight * Constants.SQRT_TWO);
 
-                    tile.transform.parent = layerObj.transform;
-                    tile.transform.position = new Vector3(x, (-y - layerHeight) * Constants.SQRT_TWO, -layerHeight * Constants.SQRT_TWO);
-                    tile.transform.localScale = new Vector3(1, Constants.SQRT_TWO, Constants.SQRT_TWO);
-                    tile.isStatic = true;
-
-                    if (walls[spriteIndex])
+                    if (!walls[spriteIndex])
                     {
-                        tile.transform.localPosition += new Vector3(0, Constants.SQRT_TWO / 2f, Constants.SQRT_TWO / 2f);
-                        tile.transform.localRotation = Quaternion.AngleAxis(270, Vector3.right);
+                        vertices[index + 0] = pos + (Vector3.up * Constants.SQRT_TWO + Vector3.left) / 2f;
+                        vertices[index + 1] = pos + (Vector3.up * Constants.SQRT_TWO + Vector3.right) / 2f;
+                        vertices[index + 2] = pos + (Vector3.down * Constants.SQRT_TWO + Vector3.left) / 2f;
+
+                        vertices[index + 3] = pos + (Vector3.up * Constants.SQRT_TWO + Vector3.right) / 2f;
+                        vertices[index + 4] = pos + (Vector3.down * Constants.SQRT_TWO + Vector3.right) / 2f;
+                        vertices[index + 5] = pos + (Vector3.down * Constants.SQRT_TWO + Vector3.left) / 2f;
+                    }
+                    else
+                    {
+                        vertices[index + 0] = pos + (Vector3.up * Constants.SQRT_TWO + Vector3.left) / 2f;
+                        vertices[index + 1] = pos + (Vector3.up * Constants.SQRT_TWO + Vector3.right) / 2f;
+                        vertices[index + 2] = pos + Vector3.forward * Constants.SQRT_TWO + (Vector3.up * Constants.SQRT_TWO + Vector3.left) / 2f;
+
+                        vertices[index + 3] = pos + (Vector3.up * Constants.SQRT_TWO + Vector3.right) / 2f;
+                        vertices[index + 4] = pos + Vector3.forward * Constants.SQRT_TWO + (Vector3.up * Constants.SQRT_TWO + Vector3.right) / 2f;
+                        vertices[index + 5] = pos + Vector3.forward * Constants.SQRT_TWO + (Vector3.up * Constants.SQRT_TWO + Vector3.left) / 2f;
                     }
 
-                    var renderer = tile.AddComponent<MeshRenderer>();
-                    renderer.sharedMaterial = tileMaterials[spriteIndex];
-                    
-                    var meshFilter = tile.AddComponent<MeshFilter>();
-                    meshFilter.sharedMesh = spriteMesh;
-                    
-                    
+                    uvs[index + 0] = new Vector2(0, 0);
+                    uvs[index + 1] = new Vector2(1, 0);
+                    uvs[index + 2] = new Vector2(0, 1);
+
+                    uvs[index + 3] = new Vector2(1, 0);
+                    uvs[index + 4] = new Vector2(1, 1);
+                    uvs[index + 5] = new Vector2(0, 1);
+
+                    triangles.Add(index + 0);
+                    triangles.Add(index + 1);
+                    triangles.Add(index + 2);
+
+                    triangles.Add(index + 3);
+                    triangles.Add(index + 4);
+                    triangles.Add(index + 5);
+
                     //renderer.sortingOrder = zDepths[spriteIndex];
 
                     // Anything on layer 0 should have a collider
@@ -160,6 +191,18 @@ public class TiledLevelImporterEditor : Editor
                     }*/
                 }
             }
+
+            // Construct mesh
+            mesh.vertices = vertices;
+            mesh.uv = uvs;
+            mesh.triangles = triangles.ToArray();
+
+            mesh.RecalculateNormals();
+            mesh.RecalculateBounds();
+
+            // Add the mesh to the layer object
+            var meshFilter = layerObj.AddComponent<MeshFilter>();
+            meshFilter.mesh = mesh;
         }
     }
 
