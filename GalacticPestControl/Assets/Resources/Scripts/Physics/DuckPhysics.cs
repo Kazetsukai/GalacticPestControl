@@ -175,6 +175,12 @@ public class DuckPhysics : MonoBehaviour
         {
             ResolveCollision(collision);
         }
+
+        //Update positions of DuckRigidbodies
+        foreach (DuckRigidbody drb in RegisteredBodies)
+        {
+            drb.UpdatePosition();
+        }
     }
 }
 

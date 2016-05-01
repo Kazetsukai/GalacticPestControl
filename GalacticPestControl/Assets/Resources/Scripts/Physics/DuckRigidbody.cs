@@ -40,18 +40,26 @@ public class DuckRigidbody : MonoBehaviour
     
     void FixedUpdate()
     {
-        //Impede velocity by drag 
-        DragRate = Mathf.Clamp01(DragRate);     
-        Velocity *= (1f - DragRate); 
-
-        //Move this object according to current velocity
-        transform.position += (Vector3)Velocity * Time.deltaTime;       
+         
     }    
 
     void OnDestroy()
     {
         //Deregister this DuckRigidbody with DuckPhysics engine
-        DuckPhysics.Instance.DeregisterRigidbody(this);
+        if (DuckPhysics.Instance != null)
+        {
+            DuckPhysics.Instance.DeregisterRigidbody(this);
+        }
+    }
+
+    public void UpdatePosition()
+    {
+        //Impede velocity by drag 
+        DragRate = Mathf.Clamp01(DragRate);
+        Velocity *= (1f - DragRate);
+
+        //Move this object according to current velocity
+        transform.position += (Vector3)Velocity * Time.deltaTime;
     }
 }
 
