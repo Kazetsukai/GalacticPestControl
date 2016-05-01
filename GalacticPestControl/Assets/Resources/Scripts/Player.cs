@@ -14,14 +14,16 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     float aimAngle;
 
+    SpriteAnimator anim;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponentInChildren<SpriteAnimator>();
     }
     
     void Update()
     {
-
         //Move player
         Vector2 moveDir = new Vector2(Input.GetAxis("L_XAxis_1"), Input.GetAxis("L_YAxis_1"));
         rb.ForceMove(moveDir * MoveSpeed);
@@ -36,5 +38,23 @@ public class Player : MonoBehaviour
         WeaponPivot.transform.rotation = Quaternion.Lerp(WeaponPivot.transform.rotation, Quaternion.Euler(new Vector3(WeaponPivot.transform.localEulerAngles.x, WeaponPivot.transform.localEulerAngles.y, aimAngle)), aimInput.magnitude * RotRate * Time.deltaTime);   //Multiply by aimInput.magnitude to get suuuper smooooth slow and fast rotation! Hurray! Could go even smoother if using an AnimationCurve multiplier too.  
 
 
+        //Update animations
+        if (moveDir.magnitude > 0f)
+        {
+            int direction = (int)(Vector3.up.Angle360To(moveDir) / 90f);
+
+            Debug.Log(direction);
+            switch (direction)
+            {
+                case -1: anim.PlayAnim("Left Walk"); break;
+                case 0 : anim.PlayAnim("Up Walk"); break;
+                case 1: anim.PlayAnim("Right Walk"); break;
+                case 2: anim.PlayAnim("Down Walk"); break;               
+            }
+        }
+        else
+        {
+            anim.PlayAnim("Down Idle");
+        }
     }
 }

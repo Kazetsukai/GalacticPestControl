@@ -1,5 +1,6 @@
-{ "frames": {
-   "Alien 1 0.ase": {
+{ "frames": [
+   {
+    "filename": "Alien 1 0.ase",
     "frame": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -7,7 +8,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 1.ase": {
+   {
+    "filename": "Alien 1 1.ase",
     "frame": { "x": 32, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -15,7 +17,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 2.ase": {
+   {
+    "filename": "Alien 1 2.ase",
     "frame": { "x": 64, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -23,7 +26,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 3.ase": {
+   {
+    "filename": "Alien 1 3.ase",
     "frame": { "x": 96, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -31,7 +35,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 4.ase": {
+   {
+    "filename": "Alien 1 4.ase",
     "frame": { "x": 128, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -39,7 +44,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 5.ase": {
+   {
+    "filename": "Alien 1 5.ase",
     "frame": { "x": 160, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -47,7 +53,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 6.ase": {
+   {
+    "filename": "Alien 1 6.ase",
     "frame": { "x": 192, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -55,7 +62,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 7.ase": {
+   {
+    "filename": "Alien 1 7.ase",
     "frame": { "x": 224, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -63,7 +71,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 8.ase": {
+   {
+    "filename": "Alien 1 8.ase",
     "frame": { "x": 256, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -71,7 +80,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 9.ase": {
+   {
+    "filename": "Alien 1 9.ase",
     "frame": { "x": 288, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -79,7 +89,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 10.ase": {
+   {
+    "filename": "Alien 1 10.ase",
     "frame": { "x": 320, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -87,7 +98,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 11.ase": {
+   {
+    "filename": "Alien 1 11.ase",
     "frame": { "x": 352, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -95,7 +107,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 12.ase": {
+   {
+    "filename": "Alien 1 12.ase",
     "frame": { "x": 384, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -103,7 +116,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 13.ase": {
+   {
+    "filename": "Alien 1 13.ase",
     "frame": { "x": 416, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -111,7 +125,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 14.ase": {
+   {
+    "filename": "Alien 1 14.ase",
     "frame": { "x": 448, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -119,7 +134,8 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 15.ase": {
+   {
+    "filename": "Alien 1 15.ase",
     "frame": { "x": 480, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
@@ -127,653 +143,762 @@
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 16.ase": {
-    "frame": { "x": 0, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 16.ase",
+    "frame": { "x": 512, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 17.ase": {
-    "frame": { "x": 32, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 17.ase",
+    "frame": { "x": 544, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 18.ase": {
-    "frame": { "x": 64, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 18.ase",
+    "frame": { "x": 576, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 19.ase": {
-    "frame": { "x": 96, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 19.ase",
+    "frame": { "x": 608, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 20.ase": {
-    "frame": { "x": 128, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 20.ase",
+    "frame": { "x": 640, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 21.ase": {
-    "frame": { "x": 160, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 21.ase",
+    "frame": { "x": 672, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 22.ase": {
-    "frame": { "x": 192, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 22.ase",
+    "frame": { "x": 704, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 23.ase": {
-    "frame": { "x": 224, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 23.ase",
+    "frame": { "x": 736, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 24.ase": {
-    "frame": { "x": 256, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 24.ase",
+    "frame": { "x": 768, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 25.ase": {
-    "frame": { "x": 288, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 25.ase",
+    "frame": { "x": 800, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 26.ase": {
-    "frame": { "x": 320, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 26.ase",
+    "frame": { "x": 832, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 27.ase": {
-    "frame": { "x": 352, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 27.ase",
+    "frame": { "x": 864, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 28.ase": {
-    "frame": { "x": 384, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 28.ase",
+    "frame": { "x": 896, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 29.ase": {
-    "frame": { "x": 416, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 29.ase",
+    "frame": { "x": 928, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 30.ase": {
-    "frame": { "x": 448, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 30.ase",
+    "frame": { "x": 960, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 31.ase": {
-    "frame": { "x": 480, "y": 32, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 31.ase",
+    "frame": { "x": 992, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 32.ase": {
-    "frame": { "x": 0, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 32.ase",
+    "frame": { "x": 1024, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 33.ase": {
-    "frame": { "x": 32, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 33.ase",
+    "frame": { "x": 1056, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 34.ase": {
-    "frame": { "x": 64, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 34.ase",
+    "frame": { "x": 1088, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 35.ase": {
-    "frame": { "x": 96, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 35.ase",
+    "frame": { "x": 1120, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 36.ase": {
-    "frame": { "x": 128, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 36.ase",
+    "frame": { "x": 1152, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 37.ase": {
-    "frame": { "x": 160, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 37.ase",
+    "frame": { "x": 1184, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 38.ase": {
-    "frame": { "x": 192, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 38.ase",
+    "frame": { "x": 1216, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 39.ase": {
-    "frame": { "x": 224, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 39.ase",
+    "frame": { "x": 1248, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 40.ase": {
-    "frame": { "x": 256, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 40.ase",
+    "frame": { "x": 1280, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 41.ase": {
-    "frame": { "x": 288, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 41.ase",
+    "frame": { "x": 1312, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 42.ase": {
-    "frame": { "x": 320, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 42.ase",
+    "frame": { "x": 1344, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 43.ase": {
-    "frame": { "x": 352, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 43.ase",
+    "frame": { "x": 1376, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 44.ase": {
-    "frame": { "x": 384, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 44.ase",
+    "frame": { "x": 1408, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 45.ase": {
-    "frame": { "x": 416, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 45.ase",
+    "frame": { "x": 1440, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 46.ase": {
-    "frame": { "x": 448, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 46.ase",
+    "frame": { "x": 1472, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 47.ase": {
-    "frame": { "x": 480, "y": 64, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 47.ase",
+    "frame": { "x": 1504, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 48.ase": {
-    "frame": { "x": 0, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 48.ase",
+    "frame": { "x": 1536, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 49.ase": {
-    "frame": { "x": 32, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 49.ase",
+    "frame": { "x": 1568, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 50.ase": {
-    "frame": { "x": 64, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 50.ase",
+    "frame": { "x": 1600, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 51.ase": {
-    "frame": { "x": 96, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 51.ase",
+    "frame": { "x": 1632, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 52.ase": {
-    "frame": { "x": 128, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 52.ase",
+    "frame": { "x": 1664, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 53.ase": {
-    "frame": { "x": 160, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 53.ase",
+    "frame": { "x": 1696, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 54.ase": {
-    "frame": { "x": 192, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 54.ase",
+    "frame": { "x": 1728, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 55.ase": {
-    "frame": { "x": 224, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 55.ase",
+    "frame": { "x": 1760, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 56.ase": {
-    "frame": { "x": 256, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 56.ase",
+    "frame": { "x": 1792, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 57.ase": {
-    "frame": { "x": 288, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 57.ase",
+    "frame": { "x": 1824, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 58.ase": {
-    "frame": { "x": 320, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 58.ase",
+    "frame": { "x": 1856, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 59.ase": {
-    "frame": { "x": 352, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 59.ase",
+    "frame": { "x": 1888, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 60.ase": {
-    "frame": { "x": 384, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 60.ase",
+    "frame": { "x": 1920, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 61.ase": {
-    "frame": { "x": 416, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 61.ase",
+    "frame": { "x": 1952, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 62.ase": {
-    "frame": { "x": 448, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 62.ase",
+    "frame": { "x": 1984, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 63.ase": {
-    "frame": { "x": 480, "y": 96, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 63.ase",
+    "frame": { "x": 2016, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 64.ase": {
-    "frame": { "x": 0, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 64.ase",
+    "frame": { "x": 2048, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 65.ase": {
-    "frame": { "x": 32, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 65.ase",
+    "frame": { "x": 2080, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 66.ase": {
-    "frame": { "x": 64, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 66.ase",
+    "frame": { "x": 2112, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 67.ase": {
-    "frame": { "x": 96, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 67.ase",
+    "frame": { "x": 2144, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 68.ase": {
-    "frame": { "x": 128, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 68.ase",
+    "frame": { "x": 2176, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 69.ase": {
-    "frame": { "x": 160, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 69.ase",
+    "frame": { "x": 2208, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 70.ase": {
-    "frame": { "x": 192, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 70.ase",
+    "frame": { "x": 2240, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 71.ase": {
-    "frame": { "x": 224, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 71.ase",
+    "frame": { "x": 2272, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 72.ase": {
-    "frame": { "x": 256, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 72.ase",
+    "frame": { "x": 2304, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 73.ase": {
-    "frame": { "x": 288, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 73.ase",
+    "frame": { "x": 2336, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 74.ase": {
-    "frame": { "x": 320, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 74.ase",
+    "frame": { "x": 2368, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 75.ase": {
-    "frame": { "x": 352, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 75.ase",
+    "frame": { "x": 2400, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 76.ase": {
-    "frame": { "x": 384, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 76.ase",
+    "frame": { "x": 2432, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 77.ase": {
-    "frame": { "x": 416, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 77.ase",
+    "frame": { "x": 2464, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 78.ase": {
-    "frame": { "x": 448, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 78.ase",
+    "frame": { "x": 2496, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 79.ase": {
-    "frame": { "x": 480, "y": 128, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 79.ase",
+    "frame": { "x": 2528, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 80.ase": {
-    "frame": { "x": 0, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 80.ase",
+    "frame": { "x": 2560, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 81.ase": {
-    "frame": { "x": 32, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 81.ase",
+    "frame": { "x": 2592, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 82.ase": {
-    "frame": { "x": 64, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 82.ase",
+    "frame": { "x": 2624, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 83.ase": {
-    "frame": { "x": 96, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 83.ase",
+    "frame": { "x": 2656, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 84.ase": {
-    "frame": { "x": 128, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 84.ase",
+    "frame": { "x": 2688, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 85.ase": {
-    "frame": { "x": 160, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 85.ase",
+    "frame": { "x": 2720, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 86.ase": {
-    "frame": { "x": 192, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 86.ase",
+    "frame": { "x": 2752, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 87.ase": {
-    "frame": { "x": 224, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 87.ase",
+    "frame": { "x": 2784, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 88.ase": {
-    "frame": { "x": 256, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 88.ase",
+    "frame": { "x": 2816, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 89.ase": {
-    "frame": { "x": 288, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 89.ase",
+    "frame": { "x": 2848, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 90.ase": {
-    "frame": { "x": 320, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 90.ase",
+    "frame": { "x": 2880, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 91.ase": {
-    "frame": { "x": 352, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 91.ase",
+    "frame": { "x": 2912, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 92.ase": {
-    "frame": { "x": 384, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 92.ase",
+    "frame": { "x": 2944, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 93.ase": {
-    "frame": { "x": 416, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 93.ase",
+    "frame": { "x": 2976, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 94.ase": {
-    "frame": { "x": 448, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 94.ase",
+    "frame": { "x": 3008, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    },
-   "Alien 1 95.ase": {
-    "frame": { "x": 480, "y": 160, "w": 32, "h": 32 },
+   {
+    "filename": "Alien 1 95.ase",
+    "frame": { "x": 3040, "y": 0, "w": 32, "h": 32 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
     "sourceSize": { "w": 32, "h": 32 },
     "duration": 200
    }
- },
+ ],
  "meta": {
   "app": "http://www.aseprite.org/",
-  "version": "1.1.1",
-  "image": "C:\\Users\\Jack\\Documents\\GitHub\\AprilJam\\Assets\\Resources\\Textures\\Alien 1.png",
+  "version": "1.1.4.1",
+  "image": "C:\\GitHub\\GalacticPestControl\\GalacticPestControl\\Assets\\Resources\\Textures\\Alien 1.png",
   "format": "I8",
-  "size": { "w": 512, "h": 256 },
-  "scale": "1"
+  "size": { "w": 3072, "h": 32 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Down Idle", "from": 0, "to": 3, "direction": "forward" },
+   { "name": "Down Walk", "from": 4, "to": 7, "direction": "forward" },
+   { "name": "Up Idle", "from": 8, "to": 11, "direction": "forward" },
+   { "name": "Up Walk", "from": 12, "to": 15, "direction": "forward" },
+   { "name": "Right Idle", "from": 16, "to": 19, "direction": "forward" },
+   { "name": "Right Walk", "from": 20, "to": 23, "direction": "forward" },
+   { "name": "Left Idle", "from": 24, "to": 27, "direction": "forward" },
+   { "name": "Left Walk", "from": 28, "to": 31, "direction": "forward" },
+   { "name": "Down Pounce", "from": 32, "to": 35, "direction": "forward" },
+   { "name": "Down Air", "from": 36, "to": 39, "direction": "forward" },
+   { "name": "Down Hit", "from": 40, "to": 43, "direction": "forward" },
+   { "name": "Up Pounce", "from": 44, "to": 47, "direction": "forward" },
+   { "name": "Up Air", "from": 48, "to": 51, "direction": "forward" },
+   { "name": "Up Hit", "from": 52, "to": 55, "direction": "forward" },
+   { "name": "Right Pounce", "from": 56, "to": 59, "direction": "forward" },
+   { "name": "Right Air", "from": 60, "to": 63, "direction": "forward" },
+   { "name": "Right Hit", "from": 64, "to": 67, "direction": "forward" },
+   { "name": "Left Pounce", "from": 68, "to": 71, "direction": "forward" },
+   { "name": "Left Air", "from": 72, "to": 75, "direction": "forward" },
+   { "name": "Left Hit", "from": 76, "to": 79, "direction": "forward" },
+   { "name": "Down Death", "from": 80, "to": 83, "direction": "forward" },
+   { "name": "Up Death", "from": 84, "to": 87, "direction": "forward" },
+   { "name": "Right Death", "from": 88, "to": 91, "direction": "forward" },
+   { "name": "Left Death", "from": 92, "to": 95, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ]
  }
 }

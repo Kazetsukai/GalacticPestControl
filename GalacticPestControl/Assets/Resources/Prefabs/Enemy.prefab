@@ -27,7 +27,8 @@ GameObject:
   - 212: {fileID: 21276798}
   - 114: {fileID: 11419846}
   - 60: {fileID: 6056748}
-  m_Layer: 9
+  - 114: {fileID: 11490984}
+  m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +87,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 135190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.367, y: -4.51, z: 0.043}
+  m_LocalPosition: {x: -2.98, y: -3.966, z: 0.043}
   m_LocalScale: {x: 1.9507972, y: 1.9507959, z: 1.9507959}
   m_Children:
   - {fileID: 481600}
@@ -101,7 +102,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 133394}
   m_LocalRotation: {x: -0.3826829, y: 0, z: 0, w: 0.92387974}
-  m_LocalPosition: {x: 0.04800002, y: 0.15500002, z: 0.10099999}
+  m_LocalPosition: {x: -0.17, y: -0.241, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 460442}
@@ -113,8 +114,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 145722}
   m_LocalRotation: {x: 0.7071067, y: 0.00000023040464, z: 0.00000023040464, w: -0.7071068}
-  m_LocalPosition: {x: 0.039, y: 0.25, z: 0.249}
-  m_LocalScale: {x: 0.23792559, y: 0.1633612, z: 0.23792548}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0.249}
+  m_LocalScale: {x: 0.19394436, y: 0.13316342, z: 0.19394429}
   m_Children: []
   m_Father: {fileID: 460442}
   m_RootOrder: 1
@@ -189,7 +190,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: 0
-  CurrentSortOrder: 420
+  CurrentSortOrder: 443
+--- !u!114 &11490984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd0f612d4a00274a8fbcb74927f3818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteSheet: {fileID: 2800000, guid: e654036c5f206064199f32952c83629e, type: 3}
+  SpriteJSON: {fileID: 4900000, guid: a1f032538b9097d48bfea6aebc463c18, type: 3}
+  SpriteAnims: []
+  CurrentAnim:
+    name: 
+    from: 0
+    to: 0
+    direction: 
+  CurrentFrame:
+    filename: 
+    frame:
+      x: 0
+      y: 0
+      w: 0
+      h: 0
+    rotated: 0
+    framed: 0
+    spriteSourceSize:
+      x: 0
+      y: 0
+      w: 0
+      h: 0
+    sourceSize:
+      w: 0
+      h: 0
+    duration: 0
+  CurrentFrameIndex: 0
+  isPlaying: 1
 --- !u!119 &11998650
 Projector:
   m_ObjectHideFlags: 1
@@ -246,7 +286,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 420
+  m_SortingOrder: 443
   m_Sprite: {fileID: 21300000, guid: 44038307392d89940886978beb478e6f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
