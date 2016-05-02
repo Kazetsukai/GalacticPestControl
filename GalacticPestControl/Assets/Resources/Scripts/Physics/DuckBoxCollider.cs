@@ -2,18 +2,11 @@
 using System.Collections;
 using UnityEditor;
 
-public class DuckCircleCollider : DuckCollider
-{
+public class DuckBoxCollider : DuckCollider
+{    
     [Header("Properties")]
-    [SerializeField] float radius = 1f;
+    [SerializeField] Vector2 dimensions = new Vector2(1,1);
 
-    public float Radius
-    {
-        get
-        {
-            return radius;
-        }      
-    }       
 
     void OnValidate()
     {
@@ -25,30 +18,32 @@ public class DuckCircleCollider : DuckCollider
     {
         //Draw collider bounds
         Handles.color = Color.green;
-        Handles.DrawWireDisc((Vector2) transform.position, Vector3.forward, Radius);
-
-        //Draw AABB
-        Handles.color = Color.yellow;
         Handles.DrawLine(WorldAABB.Min, new Vector3(WorldAABB.Max.x, WorldAABB.Min.y));
         Handles.DrawLine(new Vector3(WorldAABB.Max.x, WorldAABB.Min.y), WorldAABB.Max);
         Handles.DrawLine(WorldAABB.Max, new Vector3(WorldAABB.Min.x, WorldAABB.Max.y));
         Handles.DrawLine(new Vector3(WorldAABB.Min.x, WorldAABB.Max.y), WorldAABB.Min);
-    }  
+
+        RecalculateAABB();
+    }
 
     void Awake()
     {
         RecalculateAABB();
     }
 
-    public void SetRadius(float newRadius)
+    void Start()
     {
-        radius = newRadius;
-        RecalculateAABB();
+
+    }
+    
+    void Update()
+    {
+
     }
 
     void RecalculateAABB()
     {
-        aabb.Min = new Vector2(-radius, radius);
-        aabb.Max = new Vector2(radius, -radius);
+        aabb.Min = new Vector2(-dimensions.x * transform.localScale.x, dimensions.y * transform.localScale.y);
+        aabb.Max = new Vector2(dimensions.x * transform.localScale.x, -dimensions.y * transform.localScale.y);    
     }
 }

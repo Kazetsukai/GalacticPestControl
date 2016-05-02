@@ -8,14 +8,17 @@ public class DuckRigidbody : MonoBehaviour
     [Header("Properties")]
     public float Mass = 1f;
     public float Bounciness = 1f;       //Must be value from 0 to 1
-    public float DragRate = 0.01f;      //Value between 0 to 1. Value of 1 means that this object will not be moveable. Value of zero means that it will move forever.
-    public DuckCollider Collider;       
-
-    Vector2 lastPosition;
+    //public float DragRate = 0.01f;      //Value between 0 to 1. Value of 1 means that this object will not be moveable. Value of zero means that it will move forever.
+    public DuckCollider Collider;  
     public Vector2 Velocity;     
+    
+    [HideInInspector] public float InvMass;
     
     void Start()
     {
+        //Pre-calcalate inverse mass (small optimization for DuckPhysics)
+        InvMass = 1f / Mass;
+
         //Ensure this DuckRigidBody has a collider        
         if (Collider == null)
         {
@@ -52,15 +55,15 @@ public class DuckRigidbody : MonoBehaviour
         }
     }
 
-    public void UpdatePosition()
+    public void UpdateMotion()
     {
         //Impede velocity by drag 
-        DragRate = Mathf.Clamp01(DragRate);
-        Velocity *= (1f - DragRate);
+       // DragRate = Mathf.Clamp01(DragRate);
+       // Velocity *= (1f - DragRate);
 
         //Move this object according to current velocity
         transform.position += (Vector3)Velocity * Time.deltaTime;
-    }
+    }    
 }
 
 public enum DuckColliderType
