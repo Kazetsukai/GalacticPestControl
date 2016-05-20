@@ -68,7 +68,9 @@ public class SpriteAnimator : MonoBehaviour
 
     void SetSpriteFromFrame(AsepriteFrame frame)
     {
-        spriteRenderer.sprite = Sprite.Create(SpriteSheet, new Rect(frame.frame.x, frame.frame.y, frame.frame.w, frame.frame.h), Vector2.zero);
+        // TODO: Bonus points if you refactor this to cache the sprites so it isn't regenerating them, 
+        //       and have them in a static dictionary so i.e. all enemies share one set of objects.
+        spriteRenderer.sprite = Sprite.Create(SpriteSheet, new Rect(frame.frame.x, frame.frame.y, frame.frame.w, frame.frame.h), Vector2.zero, 32);
     }
 
     public int GetCurrentFrameIndex()

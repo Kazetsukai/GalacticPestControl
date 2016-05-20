@@ -8,7 +8,7 @@ public class CameraController : MonoBehaviour
 	private Camera localCamera;
     
 
-	JankMode pixelMode = JankMode.Dejank;
+	public JankMode pixelMode = JankMode.Dejank;
 
 	// Use this for initialization
 	void Start()
@@ -47,7 +47,7 @@ public class CameraController : MonoBehaviour
 		//Debug.Log(pixelMode + " - " + size + "   - " + localCamera.orthographicSize + " - " + snapSize + " - " + transform.localPosition + " - " + snapPosition);
 	}
 
-	enum JankMode
+	public enum JankMode
 	{
 		FullJank,
 		Dejank

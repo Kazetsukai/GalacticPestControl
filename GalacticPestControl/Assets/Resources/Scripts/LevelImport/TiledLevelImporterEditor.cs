@@ -107,7 +107,7 @@ public class TiledLevelImporterEditor : Editor
         var importedLevel = new GameObject("Tiled Level");
         importedLevel.transform.parent = parent;
 
-        // Load the layers
+        // Load the layers.
         for (int layerId = obj.layers.Length - 1; layerId >= 0; layerId--)
         {
             var layer = obj.layers[layerId];
@@ -118,11 +118,13 @@ public class TiledLevelImporterEditor : Editor
             var renderer = layerObj.AddComponent<MeshRenderer>();
             renderer.material = material;
 
+            // Each layer gets its own mesh.
             Mesh mesh = new Mesh();
             var vertices = new Vector3[layer.height * layer.width * 6];
             var uvs = new Vector2[layer.height * layer.width * 6];
             var triangles = new List<int>();
 
+            // If the layer name can be parsed as an int, use that as the layer's height.
             int layerHeight;
             if (!int.TryParse(layer.name, out layerHeight))
             {
@@ -141,6 +143,7 @@ public class TiledLevelImporterEditor : Editor
                     if (spriteIndex == 0)
                         continue;
 
+                    // Positions need to be adjusted by the square root of two, to line up pixels perfectly with the 45 degree orthographic camera.
                     var pos = new Vector3(x, (-y - layerHeight) * Constants.SQRT_TWO, -layerHeight * Constants.SQRT_TWO);
 
                     if (!walls[spriteIndex])
