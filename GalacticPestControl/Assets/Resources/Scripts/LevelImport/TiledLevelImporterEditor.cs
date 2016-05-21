@@ -146,7 +146,7 @@ public class TiledLevelImporterEditor : Editor
                     // Positions need to be adjusted by the square root of two, to line up pixels perfectly with the 45 degree orthographic camera.
                     var pos = new Vector3(x, (-y - layerHeight) * Constants.SQRT_TWO, -layerHeight * Constants.SQRT_TWO);
 
-                    if (!walls[spriteIndex])
+                    if (!walls.ContainsKey(spriteIndex) || !walls[spriteIndex])
                     {
                         vertices[index + 0] = pos + (Vector3.up * Constants.SQRT_TWO + Vector3.left) / 2f;
                         vertices[index + 1] = pos + (Vector3.up * Constants.SQRT_TWO + Vector3.right) / 2f;
