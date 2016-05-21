@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: CubeTest
+  m_Name: Material
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -19,8 +19,8 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 7d506207c2704ee46af6783b340ef829, type: 3}
-          m_Scale: {x: 0.05555, y: 1}
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -38,34 +38,6 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _NormalDepth
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _SpecGloss
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _AmbientOcclusion
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _EmissiveColour
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
           name: _ParallaxMap
         second:
           m_Texture: {fileID: 0}
@@ -75,7 +47,7 @@ Material:
         first:
           name: _OcclusionMap
         second:
-          m_Texture: {fileID: 2800000, guid: b882394cb6aae684dba1512bd0b9d9a8, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -83,7 +55,7 @@ Material:
           name: _EmissionMap
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: 0.05555, y: 1}
+          m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -121,42 +93,6 @@ Material:
         second: 0.5
       data:
         first:
-          name: _SpecExponent
-        second: 10
-      data:
-        first:
-          name: _SpecStrength
-        second: 1
-      data:
-        first:
-          name: _AmplifyDepth
-        second: 0
-      data:
-        first:
-          name: _CelShadingLevels
-        second: 1856.4
-      data:
-        first:
-          name: _LightWrap
-        second: 1
-      data:
-        first:
-          name: _AmbientOcclusionStrength
-        second: 1
-      data:
-        first:
-          name: _EmissiveStrength
-        second: 0
-      data:
-        first:
-          name: _AttenuationMultiplier
-        second: 0.79
-      data:
-        first:
-          name: _SpotlightHardness
-        second: 3.31
-      data:
-        first:
           name: _Parallax
         second: 0.02
       data:
@@ -166,7 +102,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: 0
+        second: 0.5
       data:
         first:
           name: _BumpScale
@@ -190,7 +126,7 @@ Material:
       data:
         first:
           name: _Metallic
-        second: 0.11
+        second: 0
     m_Colors:
       data:
         first:
@@ -199,16 +135,4 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _TextureRes
-        second: {r: 256, g: 256, b: 0, a: 0}
-      data:
-        first:
-          name: _AboveAmbientColour
-        second: {r: 0, g: 0, b: 0, a: 0.3}
-      data:
-        first:
-          name: _BelowAmbientColour
-        second: {r: 0, g: 0, b: 0, a: 0.1}
+        second: {r: 0.8, g: 0.8, b: 0.8, a: 1}
