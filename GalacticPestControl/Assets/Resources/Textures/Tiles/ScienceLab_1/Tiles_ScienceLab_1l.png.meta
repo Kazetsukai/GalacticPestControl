@@ -1,13 +1,113 @@
 fileFormatVersion: 2
 guid: 50eac5ba941815f49a590f282a3d57f7
-timeCreated: 1463797189
+timeCreated: 1463806901
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Tiles_ScienceLab_1l_0
+    21300002: Tiles_ScienceLab_1l_1
+    21300004: Tiles_ScienceLab_1l_2
+    21300006: Tiles_ScienceLab_1l_3
+    21300008: Tiles_ScienceLab_1l_4
+    21300010: Tiles_ScienceLab_1l_5
+    21300012: Tiles_ScienceLab_1l_6
+    21300014: Tiles_ScienceLab_1l_7
+    21300016: Tiles_ScienceLab_1l_8
+    21300018: Tiles_ScienceLab_1l_9
+    21300020: Tiles_ScienceLab_1l_10
+    21300022: Tiles_ScienceLab_1l_11
+    21300024: Tiles_ScienceLab_1l_12
+    21300026: Tiles_ScienceLab_1l_13
+    21300028: Tiles_ScienceLab_1l_14
+    21300030: Tiles_ScienceLab_1l_15
+    21300032: Tiles_ScienceLab_1l_16
+    21300034: Tiles_ScienceLab_1l_17
+    21300036: Tiles_ScienceLab_1l_18
+    21300038: Tiles_ScienceLab_1l_19
+    21300040: Tiles_ScienceLab_1l_20
+    21300042: Tiles_ScienceLab_1l_21
+    21300044: Tiles_ScienceLab_1l_22
+    21300046: Tiles_ScienceLab_1l_23
+    21300048: Tiles_ScienceLab_1l_24
+    21300050: Tiles_ScienceLab_1l_25
+    21300052: Tiles_ScienceLab_1l_26
+    21300054: Tiles_ScienceLab_1l_27
+    21300056: Tiles_ScienceLab_1l_28
+    21300058: Tiles_ScienceLab_1l_29
+    21300060: Tiles_ScienceLab_1l_30
+    21300062: Tiles_ScienceLab_1l_31
+    21300064: Tiles_ScienceLab_1l_32
+    21300066: Tiles_ScienceLab_1l_33
+    21300068: Tiles_ScienceLab_1l_34
+    21300070: Tiles_ScienceLab_1l_35
+    21300072: Tiles_ScienceLab_1l_36
+    21300074: Tiles_ScienceLab_1l_37
+    21300076: Tiles_ScienceLab_1l_38
+    21300078: Tiles_ScienceLab_1l_39
+    21300080: Tiles_ScienceLab_1l_40
+    21300082: Tiles_ScienceLab_1l_41
+    21300084: Tiles_ScienceLab_1l_42
+    21300086: Tiles_ScienceLab_1l_43
+    21300088: Tiles_ScienceLab_1l_44
+    21300090: Tiles_ScienceLab_1l_45
+    21300092: Tiles_ScienceLab_1l_46
+    21300094: Tiles_ScienceLab_1l_47
+    21300096: Tiles_ScienceLab_1l_48
+    21300098: Tiles_ScienceLab_1l_49
+    21300100: Tiles_ScienceLab_1l_50
+    21300102: Tiles_ScienceLab_1l_51
+    21300104: Tiles_ScienceLab_1l_52
+    21300106: Tiles_ScienceLab_1l_53
+    21300108: Tiles_ScienceLab_1l_54
+    21300110: Tiles_ScienceLab_1l_55
+    21300112: Tiles_ScienceLab_1l_56
+    21300114: Tiles_ScienceLab_1l_57
+    21300116: Tiles_ScienceLab_1l_58
+    21300118: Tiles_ScienceLab_1l_59
+    21300120: Tiles_ScienceLab_1l_60
+    21300122: Tiles_ScienceLab_1l_61
+    21300124: Tiles_ScienceLab_1l_62
+    21300126: Tiles_ScienceLab_1l_63
+    21300128: Tiles_ScienceLab_1l_64
+    21300130: Tiles_ScienceLab_1l_65
+    21300132: Tiles_ScienceLab_1l_66
+    21300134: Tiles_ScienceLab_1l_67
+    21300136: Tiles_ScienceLab_1l_68
+    21300138: Tiles_ScienceLab_1l_69
+    21300140: Tiles_ScienceLab_1l_70
+    21300142: Tiles_ScienceLab_1l_71
+    21300144: Tiles_ScienceLab_1l_72
+    21300146: Tiles_ScienceLab_1l_73
+    21300148: Tiles_ScienceLab_1l_74
+    21300150: Tiles_ScienceLab_1l_75
+    21300152: Tiles_ScienceLab_1l_76
+    21300154: Tiles_ScienceLab_1l_77
+    21300156: Tiles_ScienceLab_1l_78
+    21300158: Tiles_ScienceLab_1l_79
+    21300160: Tiles_ScienceLab_1l_80
+    21300162: Tiles_ScienceLab_1l_81
+    21300164: Tiles_ScienceLab_1l_82
+    21300166: Tiles_ScienceLab_1l_83
+    21300168: Tiles_ScienceLab_1l_84
+    21300170: Tiles_ScienceLab_1l_85
+    21300172: Tiles_ScienceLab_1l_86
+    21300174: Tiles_ScienceLab_1l_87
+    21300176: Tiles_ScienceLab_1l_88
+    21300178: Tiles_ScienceLab_1l_89
+    21300180: Tiles_ScienceLab_1l_90
+    21300182: Tiles_ScienceLab_1l_91
+    21300184: Tiles_ScienceLab_1l_92
+    21300186: Tiles_ScienceLab_1l_93
+    21300188: Tiles_ScienceLab_1l_94
+    21300190: Tiles_ScienceLab_1l_95
+    21300192: Tiles_ScienceLab_1l_96
+    21300194: Tiles_ScienceLab_1l_97
+    21300196: Tiles_ScienceLab_1l_98
+    21300198: Tiles_ScienceLab_1l_99
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -32,24 +132,1681 @@ TextureImporter:
     filterMode: 0
     aniso: 16
     mipBias: -1
-    wrapMode: 1
+    wrapMode: 0
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   alphaIsTransparency: 1
   textureType: 5
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Tiles_ScienceLab_1l_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -9}
+        - {x: 13, y: -10}
+        - {x: 13, y: -15}
+        - {x: 15, y: -23}
+        - {x: 17, y: -28}
+        - {x: 20, y: -28}
+        - {x: 22, y: -27}
+        - {x: 22, y: -23}
+        - {x: 20, y: -12}
+    - name: Tiles_ScienceLab_1l_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -7}
+        - {x: 5, y: -8}
+        - {x: 5, y: -16}
+        - {x: 10, y: -25}
+        - {x: 18, y: -25}
+        - {x: 21, y: -24}
+        - {x: 27, y: -13}
+        - {x: 27, y: -7}
+    - name: Tiles_ScienceLab_1l_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -9}
+        - {x: 10, y: -11}
+        - {x: 10, y: -21}
+        - {x: 13, y: -27}
+        - {x: 23, y: -27}
+        - {x: 26, y: -26}
+        - {x: 26, y: -9}
+    - name: Tiles_ScienceLab_1l_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -7}
+        - {x: 5, y: -10}
+        - {x: 5, y: -12}
+        - {x: 6, y: -17}
+        - {x: 14, y: -25}
+        - {x: 21, y: -25}
+        - {x: 23, y: -23}
+        - {x: 27, y: -13}
+        - {x: 27, y: -7}
+    - name: Tiles_ScienceLab_1l_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -4}
+        - {x: 8, y: -29}
+        - {x: 28, y: -29}
+        - {x: 28, y: -15}
+        - {x: 26, y: -4}
+    - name: Tiles_ScienceLab_1l_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -3}
+        - {x: 8, y: -20}
+        - {x: 10, y: -27}
+        - {x: 18, y: -27}
+        - {x: 20, y: -26}
+        - {x: 20, y: -7}
+        - {x: 14, y: -3}
+    - name: Tiles_ScienceLab_1l_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -22}
+        - {x: 23, y: -25}
+        - {x: 26, y: -24}
+        - {x: 26, y: -11}
+        - {x: 22, y: -6}
+        - {x: 19, y: -7}
+      - - {x: 12, y: -20}
+        - {x: 14, y: -22}
+        - {x: 17, y: -21}
+        - {x: 17, y: -12}
+        - {x: 15, y: -10}
+        - {x: 12, y: -11}
+    - name: Tiles_ScienceLab_1l_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -13}
+        - {x: 11, y: -19}
+        - {x: 11, y: -32}
+        - {x: 18, y: -32}
+        - {x: 32, y: -19}
+        - {x: 32, y: -13}
+    - name: Tiles_ScienceLab_1l_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -13}
+        - {x: 0, y: -18}
+        - {x: 22, y: -19}
+        - {x: 32, y: -19}
+        - {x: 32, y: -14}
+        - {x: 22, y: -13}
+    - name: Tiles_ScienceLab_1l_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -14}
+        - {x: 0, y: -19}
+        - {x: 30, y: -21}
+        - {x: 32, y: -21}
+        - {x: 32, y: -15}
+        - {x: 27, y: -14}
+    - name: Tiles_ScienceLab_1l_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -21}
+        - {x: 32, y: -21}
+        - {x: 32, y: -16}
+        - {x: 0, y: -16}
+    - name: Tiles_ScienceLab_1l_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 0, y: -21}
+        - {x: 30, y: -22}
+        - {x: 32, y: -22}
+        - {x: 32, y: -17}
+        - {x: 30, y: -16}
+    - name: Tiles_ScienceLab_1l_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -17}
+        - {x: 0, y: -22}
+        - {x: 10, y: -23}
+        - {x: 32, y: -23}
+        - {x: 32, y: -18}
+        - {x: 10, y: -17}
+    - name: Tiles_ScienceLab_1l_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -18}
+        - {x: 0, y: -23}
+        - {x: 19, y: -32}
+        - {x: 25, y: -32}
+        - {x: 25, y: -28}
+        - {x: 23, y: -19}
+        - {x: 17, y: -18}
+    - name: Tiles_ScienceLab_1l_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -20}
+        - {x: 22, y: -31}
+        - {x: 27, y: -31}
+        - {x: 27, y: -13}
+        - {x: 26, y: -7}
+        - {x: 16, y: -7}
+        - {x: 14, y: -9}
+      - - {x: 7, y: -23}
+        - {x: 10, y: -24}
+        - {x: 13, y: -23}
+        - {x: 13, y: -8}
+        - {x: 10, y: -7}
+        - {x: 7, y: -8}
+    - name: Tiles_ScienceLab_1l_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -8}
+        - {x: 18, y: -14}
+        - {x: 24, y: -17}
+        - {x: 32, y: -17}
+        - {x: 32, y: -12}
+        - {x: 23, y: -8}
+    - name: Tiles_ScienceLab_1l_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 0}
+        - {x: 0, y: -11}
+        - {x: 0, y: -18}
+        - {x: 14, y: -18}
+        - {x: 18, y: -17}
+        - {x: 18, y: 0}
+    - name: Tiles_ScienceLab_1l_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -14}
+        - {x: 15, y: -17}
+        - {x: 21, y: -17}
+        - {x: 32, y: -15}
+        - {x: 32, y: -10}
+        - {x: 19, y: -11}
+    - name: Tiles_ScienceLab_1l_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -10}
+        - {x: 0, y: -15}
+        - {x: 32, y: -14}
+        - {x: 32, y: -9}
+        - {x: 1, y: -9}
+    - name: Tiles_ScienceLab_1l_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -14}
+        - {x: 32, y: -14}
+        - {x: 32, y: -9}
+        - {x: 0, y: -9}
+    - name: Tiles_ScienceLab_1l_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -9}
+        - {x: 0, y: -14}
+        - {x: 11, y: -16}
+        - {x: 32, y: -16}
+        - {x: 32, y: -11}
+        - {x: 19, y: -9}
+    - name: Tiles_ScienceLab_1l_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 32, y: -16}
+        - {x: 32, y: -11}
+        - {x: 0, y: -11}
+    - name: Tiles_ScienceLab_1l_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 0}
+        - {x: 0, y: -10}
+        - {x: 0, y: -16}
+        - {x: 3, y: -16}
+        - {x: 12, y: -15}
+        - {x: 24, y: -6}
+        - {x: 25, y: 0}
+    - name: Tiles_ScienceLab_1l_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -6}
+        - {x: 1, y: -26}
+        - {x: 17, y: -28}
+        - {x: 19, y: -25}
+        - {x: 20, y: -22}
+        - {x: 15, y: -19}
+        - {x: 22, y: -18}
+        - {x: 22, y: -26}
+        - {x: 24, y: -28}
+        - {x: 27, y: -27}
+        - {x: 27, y: -14}
+        - {x: 22, y: -6}
+    - name: Tiles_ScienceLab_1l_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 0}
+        - {x: 14, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -14}
+        - {x: 0, y: -14}
+    - name: Tiles_ScienceLab_1l_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -16}
+        - {x: 14, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -14}
+        - {x: 16, y: -14}
+    - name: Tiles_ScienceLab_1l_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 18, y: -32}
+        - {x: 18, y: -16}
+        - {x: 16, y: -14}
+        - {x: 0, y: -14}
+    - name: Tiles_ScienceLab_1l_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 18, y: -32}
+        - {x: 32, y: -18}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -18}
+        - {x: 14, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -18}
+        - {x: 32, y: -18}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -32}
+        - {x: 18, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: -32}
+    - name: Tiles_ScienceLab_1l_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 0}
+        - {x: 14, y: -16}
+        - {x: 16, y: -18}
+        - {x: 32, y: -18}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -18}
+        - {x: 16, y: -18}
+        - {x: 18, y: -16}
+        - {x: 18, y: 0}
+    - name: Tiles_ScienceLab_1l_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -14}
+        - {x: 18, y: 0}
+    - name: Tiles_ScienceLab_1l_49
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 0}
+        - {x: 0, y: -14}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+    - name: Tiles_ScienceLab_1l_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -18}
+        - {x: 14, y: -21}
+        - {x: 27, y: -21}
+        - {x: 32, y: -20}
+        - {x: 32, y: -15}
+        - {x: 14, y: -15}
+    - name: Tiles_ScienceLab_1l_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 0, y: -20}
+        - {x: 16, y: -20}
+        - {x: 32, y: -19}
+        - {x: 32, y: -14}
+        - {x: 9, y: -14}
+    - name: Tiles_ScienceLab_1l_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -19}
+        - {x: 32, y: -19}
+        - {x: 32, y: -14}
+        - {x: 0, y: -14}
+    - name: Tiles_ScienceLab_1l_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -14}
+        - {x: 0, y: -19}
+        - {x: 23, y: -20}
+        - {x: 32, y: -20}
+        - {x: 32, y: -15}
+        - {x: 23, y: -14}
+    - name: Tiles_ScienceLab_1l_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 0, y: -20}
+        - {x: 21, y: -21}
+        - {x: 32, y: -21}
+        - {x: 32, y: -16}
+        - {x: 21, y: -15}
+    - name: Tiles_ScienceLab_1l_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -21}
+        - {x: 32, y: -21}
+        - {x: 32, y: -16}
+        - {x: 0, y: -16}
+    - name: Tiles_ScienceLab_1l_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 0, y: -21}
+        - {x: 9, y: -22}
+        - {x: 32, y: -22}
+        - {x: 32, y: -17}
+        - {x: 9, y: -16}
+    - name: Tiles_ScienceLab_1l_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -17}
+        - {x: 0, y: -22}
+        - {x: 27, y: -23}
+        - {x: 32, y: -23}
+        - {x: 32, y: -18}
+        - {x: 27, y: -17}
+    - name: Tiles_ScienceLab_1l_59
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -18}
+        - {x: 0, y: -23}
+        - {x: 17, y: -26}
+        - {x: 27, y: -27}
+        - {x: 32, y: -27}
+        - {x: 32, y: -22}
+        - {x: 24, y: -18}
+    - name: Tiles_ScienceLab_1l_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -27}
+        - {x: 19, y: -32}
+        - {x: 25, y: -32}
+        - {x: 32, y: -27}
+        - {x: 32, y: -22}
+        - {x: 22, y: -22}
+    - name: Tiles_ScienceLab_1l_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -27}
+        - {x: 18, y: -26}
+        - {x: 32, y: -25}
+        - {x: 32, y: -20}
+        - {x: 0, y: -20}
+    - name: Tiles_ScienceLab_1l_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -25}
+        - {x: 21, y: -25}
+        - {x: 32, y: -24}
+        - {x: 32, y: -19}
+        - {x: 16, y: -19}
+        - {x: 0, y: -20}
+    - name: Tiles_ScienceLab_1l_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -16}
+        - {x: 0, y: -18}
+        - {x: 0, y: -24}
+        - {x: 21, y: -24}
+        - {x: 32, y: -21}
+        - {x: 32, y: -16}
+    - name: Tiles_ScienceLab_1l_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -14}
+        - {x: 0, y: -16}
+        - {x: 0, y: -21}
+        - {x: 19, y: -21}
+        - {x: 32, y: -19}
+        - {x: 32, y: -14}
+    - name: Tiles_ScienceLab_1l_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -14}
+        - {x: 0, y: -19}
+        - {x: 20, y: -19}
+        - {x: 32, y: -17}
+        - {x: 32, y: -12}
+        - {x: 19, y: -12}
+    - name: Tiles_ScienceLab_1l_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -17}
+        - {x: 32, y: -17}
+        - {x: 32, y: -12}
+        - {x: 0, y: -12}
+    - name: Tiles_ScienceLab_1l_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -17}
+        - {x: 32, y: -17}
+        - {x: 32, y: -12}
+        - {x: 0, y: -12}
+    - name: Tiles_ScienceLab_1l_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -17}
+        - {x: 32, y: -17}
+        - {x: 32, y: -12}
+        - {x: 0, y: -12}
+    - name: Tiles_ScienceLab_1l_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -2}
+        - {x: 0, y: -12}
+        - {x: 0, y: -17}
+        - {x: 12, y: -17}
+        - {x: 28, y: -11}
+        - {x: 32, y: -7}
+        - {x: 32, y: -2}
+    - name: Tiles_ScienceLab_1l_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 0}
+        - {x: 19, y: -10}
+        - {x: 26, y: -16}
+        - {x: 32, y: -16}
+        - {x: 32, y: -9}
+        - {x: 24, y: 0}
+    - name: Tiles_ScienceLab_1l_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -11}
+        - {x: 0, y: -16}
+        - {x: 27, y: -17}
+        - {x: 32, y: -17}
+        - {x: 32, y: -12}
+        - {x: 27, y: -11}
+    - name: Tiles_ScienceLab_1l_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -17}
+        - {x: 32, y: -17}
+        - {x: 32, y: -12}
+        - {x: 0, y: -12}
+    - name: Tiles_ScienceLab_1l_73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -12}
+        - {x: 0, y: -17}
+        - {x: 22, y: -18}
+        - {x: 32, y: -18}
+        - {x: 32, y: -13}
+        - {x: 22, y: -12}
+    - name: Tiles_ScienceLab_1l_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -13}
+        - {x: 0, y: -18}
+        - {x: 24, y: -19}
+        - {x: 32, y: -19}
+        - {x: 32, y: -14}
+        - {x: 24, y: -13}
+    - name: Tiles_ScienceLab_1l_75
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -14}
+        - {x: 0, y: -19}
+        - {x: 13, y: -20}
+        - {x: 32, y: -20}
+        - {x: 32, y: -15}
+        - {x: 13, y: -14}
+    - name: Tiles_ScienceLab_1l_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 0, y: -21}
+        - {x: 19, y: -23}
+        - {x: 29, y: -24}
+        - {x: 32, y: -24}
+        - {x: 32, y: -18}
+        - {x: 21, y: -16}
+    - name: Tiles_ScienceLab_1l_77
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -19}
+        - {x: 0, y: -24}
+        - {x: 17, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: -20}
+        - {x: 17, y: -19}
+    - name: Tiles_ScienceLab_1l_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 0, y: -25}
+        - {x: 15, y: -27}
+        - {x: 32, y: -27}
+        - {x: 32, y: -22}
+        - {x: 19, y: -20}
+    - name: Tiles_ScienceLab_1l_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -22}
+        - {x: 0, y: -27}
+        - {x: 30, y: -30}
+        - {x: 32, y: -30}
+        - {x: 32, y: -24}
+        - {x: 23, y: -22}
+    - name: Tiles_ScienceLab_1l_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -28}
+        - {x: 7, y: -32}
+        - {x: 14, y: -32}
+        - {x: 32, y: -25}
+        - {x: 32, y: -20}
+        - {x: 22, y: -20}
+        - {x: 10, y: -22}
+    - name: Tiles_ScienceLab_1l_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 0, y: -25}
+        - {x: 17, y: -25}
+        - {x: 32, y: -23}
+        - {x: 32, y: -18}
+        - {x: 12, y: -18}
+    - name: Tiles_ScienceLab_1l_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -18}
+        - {x: 0, y: -23}
+        - {x: 21, y: -23}
+        - {x: 32, y: -21}
+        - {x: 32, y: -16}
+        - {x: 12, y: -16}
+    - name: Tiles_ScienceLab_1l_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -21}
+        - {x: 32, y: -21}
+        - {x: 32, y: -16}
+        - {x: 0, y: -16}
+    - name: Tiles_ScienceLab_1l_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -21}
+        - {x: 16, y: -21}
+        - {x: 32, y: -20}
+        - {x: 32, y: -14}
+        - {x: 0, y: -14}
+    - name: Tiles_ScienceLab_1l_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -19}
+        - {x: 32, y: -19}
+        - {x: 32, y: -14}
+        - {x: 0, y: -14}
+    - name: Tiles_ScienceLab_1l_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -19}
+        - {x: 32, y: -19}
+        - {x: 32, y: -14}
+        - {x: 0, y: -14}
+    - name: Tiles_ScienceLab_1l_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -14}
+        - {x: 0, y: -19}
+        - {x: 16, y: -19}
+        - {x: 32, y: -18}
+        - {x: 32, y: -13}
+        - {x: 14, y: -13}
+    - name: Tiles_ScienceLab_1l_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -18}
+        - {x: 32, y: -18}
+        - {x: 32, y: -13}
+        - {x: 0, y: -13}
+    - name: Tiles_ScienceLab_1l_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -18}
+        - {x: 12, y: -18}
+        - {x: 32, y: -6}
+        - {x: 32, y: 0}
+        - {x: 28, y: 0}
+        - {x: 0, y: -12}
+    - name: Tiles_ScienceLab_1l_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 0}
+        - {x: 8, y: -3}
+        - {x: 10, y: -6}
+        - {x: 24, y: -14}
+        - {x: 32, y: -14}
+        - {x: 32, y: -5}
+        - {x: 18, y: 0}
+    - name: Tiles_ScienceLab_1l_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -10}
+        - {x: 0, y: -15}
+        - {x: 12, y: -16}
+        - {x: 32, y: -16}
+        - {x: 32, y: -11}
+        - {x: 12, y: -10}
+    - name: Tiles_ScienceLab_1l_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -11}
+        - {x: 0, y: -11}
+        - {x: 0, y: -17}
+        - {x: 16, y: -18}
+        - {x: 32, y: -18}
+        - {x: 32, y: -12}
+    - name: Tiles_ScienceLab_1l_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -13}
+        - {x: 0, y: -18}
+        - {x: 25, y: -20}
+        - {x: 32, y: -20}
+        - {x: 32, y: -14}
+        - {x: 21, y: -13}
+    - name: Tiles_ScienceLab_1l_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20}
+        - {x: 32, y: -20}
+        - {x: 32, y: -15}
+        - {x: 0, y: -15}
+    - name: Tiles_ScienceLab_1l_95
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 0, y: -20}
+        - {x: 9, y: -22}
+        - {x: 32, y: -22}
+        - {x: 32, y: -17}
+        - {x: 22, y: -15}
+    - name: Tiles_ScienceLab_1l_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -17}
+        - {x: 0, y: -22}
+        - {x: 27, y: -23}
+        - {x: 32, y: -23}
+        - {x: 32, y: -18}
+        - {x: 27, y: -17}
+    - name: Tiles_ScienceLab_1l_97
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -18}
+        - {x: 0, y: -23}
+        - {x: 23, y: -24}
+        - {x: 32, y: -24}
+        - {x: 32, y: -19}
+        - {x: 23, y: -18}
+    - name: Tiles_ScienceLab_1l_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: -20}
+        - {x: 0, y: -20}
+    - name: Tiles_ScienceLab_1l_99
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -15}
+        - {x: 0, y: -20}
+        - {x: 0, y: -25}
+        - {x: 22, y: -25}
+        - {x: 23, y: -23}
+        - {x: 24, y: -20}
+        - {x: 24, y: -15}
     outline: []
   spritePackingTag: 
   userData: 

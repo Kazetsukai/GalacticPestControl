@@ -6,12 +6,13 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: BugBuster
-  m_Shader: {fileID: 4800000, guid: 069032f5bd5666541afcfeb10ac30a51, type: 3}
-  m_ShaderKeywords: 
+  m_Name: ScienceLab_1
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHATEST_ON
   m_LightmapFlags: 5
-  m_CustomRenderQueue: 3000
-  stringTagMap: {}
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -19,7 +20,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 50eac5ba941815f49a590f282a3d57f7, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -38,28 +39,7 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _NormalDepth
-        second:
-          m_Texture: {fileID: 2800000, guid: 6117c78dd50ada94fb1a6659a3cf3490, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _SpecGloss
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _AmbientOcclusion
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _EmissiveColour
+          name: _MetallicGlossMap
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -101,7 +81,28 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _MetallicGlossMap
+          name: _NormalDepth
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGloss
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AmbientOcclusion
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissiveColour
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -121,56 +122,24 @@ Material:
         second: 0.5
       data:
         first:
-          name: _SpecExponent
-        second: 1.27
-      data:
-        first:
-          name: _SpecStrength
-        second: 0
-      data:
-        first:
-          name: _AmplifyDepth
-        second: 0
-      data:
-        first:
-          name: _CelShadingLevels
-        second: 367.63
-      data:
-        first:
-          name: _LightWrap
-        second: 0.31
-      data:
-        first:
-          name: _AmbientOcclusionStrength
-        second: 1
-      data:
-        first:
-          name: _EmissiveStrength
-        second: 0
-      data:
-        first:
-          name: _AttenuationMultiplier
-        second: 0.19
-      data:
-        first:
-          name: _SpotlightHardness
-        second: 1.87
-      data:
-        first:
-          name: _Parallax
-        second: 0.02
-      data:
-        first:
           name: _ZWrite
         second: 1
       data:
         first:
           name: _Glossiness
-        second: 0.5
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 0
       data:
         first:
           name: _BumpScale
         second: 1
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
       data:
         first:
           name: _OcclusionStrength
@@ -186,11 +155,43 @@ Material:
       data:
         first:
           name: _Mode
+        second: 1
+      data:
+        first:
+          name: _SpecExponent
+        second: 10
+      data:
+        first:
+          name: _SpecStrength
+        second: 1
+      data:
+        first:
+          name: _AmplifyDepth
         second: 0
       data:
         first:
-          name: _Metallic
+          name: _CelShadingLevels
+        second: 1856.4
+      data:
+        first:
+          name: _LightWrap
+        second: 1
+      data:
+        first:
+          name: _AmbientOcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _EmissiveStrength
         second: 0
+      data:
+        first:
+          name: _AttenuationMultiplier
+        second: 0.79
+      data:
+        first:
+          name: _SpotlightHardness
+        second: 3.31
     m_Colors:
       data:
         first:
