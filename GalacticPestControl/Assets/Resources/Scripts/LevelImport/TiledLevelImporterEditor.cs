@@ -160,17 +160,20 @@ public class TiledLevelImporterEditor : Editor
                         vertices[index + 5] = pos + Vector3.forward * Constants.SQRT_TWO + (Vector3.up * Constants.SQRT_TWO + Vector3.left) / 2f;
                     }
 
-                    var uv = uvRects[dataIndex];
+                    if (uvRects.ContainsKey(spriteIndex))
+                    {
+                        var uv = uvRects[spriteIndex];
 
-                    uvs[index + 0] = uv.position;
-                    uvs[index + 1] = uv.position + new Vector2(uv.width, 0);
-                    uvs[index + 2] = uv.position + new Vector2(0, uv.height);
+                        uvs[index + 0] = uv.position + new Vector2(0, uv.height);
+                        uvs[index + 1] = uv.position + new Vector2(uv.width, uv.height);
+                        uvs[index + 2] = uv.position + new Vector2(0, 0);
 
 
-                    uvs[index + 3] = uv.position + new Vector2(uv.width, 0);
-                    uvs[index + 4] = uv.position + new Vector2(uv.width, uv.height);
-                    uvs[index + 5] = uv.position + new Vector2(0, uv.height);
-                    
+                        uvs[index + 3] = uv.position + new Vector2(uv.width, uv.height);
+                        uvs[index + 4] = uv.position + new Vector2(uv.width, 0);
+                        uvs[index + 5] = uv.position + new Vector2(0, 0);
+                    }
+
                     triangles.Add(index + 0);
                     triangles.Add(index + 1);
                     triangles.Add(index + 2);
