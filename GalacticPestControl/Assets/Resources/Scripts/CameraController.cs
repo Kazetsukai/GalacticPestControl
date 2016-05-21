@@ -43,8 +43,6 @@ public class CameraController : MonoBehaviour
 			localCamera.orthographicSize = snapSize;
 			transform.localPosition = snapPosition;
 		}
-
-		//Debug.Log(pixelMode + " - " + size + "   - " + localCamera.orthographicSize + " - " + snapSize + " - " + transform.localPosition + " - " + snapPosition);
 	}
 
 	public enum JankMode

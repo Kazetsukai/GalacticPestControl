@@ -15,6 +15,7 @@ using Assets.Resources.Scripts;
 public class TiledLevelImporterEditor : Editor
 {
     public Dictionary<int, bool> walls;
+    public Dictionary<int, Rect> uvRects;
 
     public override void OnInspectorGUI()
     {
@@ -43,13 +44,13 @@ public class TiledLevelImporterEditor : Editor
         var spriteMesh = ((TiledLevelImporter)target).SpriteMesh;
 
         walls = new Dictionary<int, bool>();
+        uvRects = new Dictionary<int, Rect>();
 
         // If any tilesets are remote references, go find those tilesets and load them
         FixTilesets(obj.tilesets, obj.path);
 
         var tileCount = obj.tilesets.Sum(t => t.tilecount) + 1;
-        Texture2D[] tileSprites = new Texture2D[tileCount];
-        Material[] tileMaterials = new Material[tileCount];
+        Texture2D texture;
 
         int i = 0;
 
@@ -74,21 +75,13 @@ public class TiledLevelImporterEditor : Editor
                 Sprite[] sprites = AssetDatabase.LoadAllAssetsAtPath(spriteSheet)
                     .OfType<Sprite>().ToArray();
 
+                texture = sprites.First().texture;
+
                 foreach (var sprite in sprites)
                 {
-                    // Turn sprite into texture
-                    Texture2D spriteTexture = new Texture2D((int)sprite.rect.width, (int)sprite.rect.height);
-                    spriteTexture.filterMode = FilterMode.Point;
-
-                    var pixels = sprite.texture.GetPixels((int)sprite.rect.x, (int)sprite.rect.y, (int)sprite.rect.width, (int)sprite.rect.height);
-                    spriteTexture.SetPixels(pixels);
-                    spriteTexture.Apply();
-
-                    // And make a material out of that
-                    tileMaterials[i] = new Material(material);
-                    tileMaterials[i].mainTexture = spriteTexture;
-
-                    tileSprites[i++] = spriteTexture;
+                    Rect spriteRect = ScaleDown(sprite.rect, texture.width, texture.height);
+                    uvRects[i] = spriteRect;
+                    i++;
                 }
             }
             else
@@ -167,14 +160,17 @@ public class TiledLevelImporterEditor : Editor
                         vertices[index + 5] = pos + Vector3.forward * Constants.SQRT_TWO + (Vector3.up * Constants.SQRT_TWO + Vector3.left) / 2f;
                     }
 
-                    uvs[index + 0] = new Vector2(0, 0);
-                    uvs[index + 1] = new Vector2(1, 0);
-                    uvs[index + 2] = new Vector2(0, 1);
+                    var uv = uvRects[dataIndex];
 
-                    uvs[index + 3] = new Vector2(1, 0);
-                    uvs[index + 4] = new Vector2(1, 1);
-                    uvs[index + 5] = new Vector2(0, 1);
+                    uvs[index + 0] = uv.position;
+                    uvs[index + 1] = uv.position + new Vector2(uv.width, 0);
+                    uvs[index + 2] = uv.position + new Vector2(0, uv.height);
 
+
+                    uvs[index + 3] = uv.position + new Vector2(uv.width, 0);
+                    uvs[index + 4] = uv.position + new Vector2(uv.width, uv.height);
+                    uvs[index + 5] = uv.position + new Vector2(0, uv.height);
+                    
                     triangles.Add(index + 0);
                     triangles.Add(index + 1);
                     triangles.Add(index + 2);
@@ -182,8 +178,6 @@ public class TiledLevelImporterEditor : Editor
                     triangles.Add(index + 3);
                     triangles.Add(index + 4);
                     triangles.Add(index + 5);
-
-                    //renderer.sortingOrder = zDepths[spriteIndex];
 
                     // Anything on layer 0 should have a collider
                     /*if (zDepths[spriteIndex] == 0)
@@ -209,6 +203,11 @@ public class TiledLevelImporterEditor : Editor
         }
     }
 
+    private Rect ScaleDown(Rect rect, int width, int height)
+    {
+        return new Rect(rect.x / width, rect.y / height, rect.width / width, rect.height / height);
+    }
+
     private void FixTilesets(Tileset[] tilesets, string path)
     {
         for (int i = 0; i < tilesets.Length; i++)
@@ -219,7 +218,6 @@ public class TiledLevelImporterEditor : Editor
                 tilesets[i] = LoadTileset(Path.Combine(path, tilesets[i].source), firstgid);
             }
         }
-
     }
 
     private Tileset LoadTileset(string source, int firstgid)
